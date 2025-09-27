@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>New Project</title>
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/bootstrap-icons.css">
+        <link rel="stylesheet" href="/css/aos.css">
+        <link rel="stylesheet" href="/css/styles.css">
+
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+        <!-- navigation bar -->
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid d-flex justify-content-between"> 
+                    <div class="logo">
+                        <a href="#home" class="navbar-brand">
+                            <img src="./assets/svg/white-logo.svg" alt="Home">
+                        </a>
+                    </div>
+                    <button 
+                        class="navbar-toggler" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#navbarCollapse" 
+                        aria-controls="navbarCollapse" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
+                        <span> <img src="./assets/svg/hamburger-menu-white.svg" alt=""></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class=" navbar-nav me-auto mb-2 mb-md-0 navigation">
+                            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Background video -->
+            <section id="home">
+                <div class="container-fluid hero">
+                    <video id="heroVideo" class="hero-video" autoplay muted playsinline>
+                        <source src="./assets/img/hero.mp4" type="video/mp4"/>
+                    </video>
+                    <div class="hero-content">
+                        <div data-aos="zoom-in-down"
+                            data-aos-delay="2000"
+                            data-aos-duration="2000">
+                            <h1>Back To Life Auto Body</h1>
+                        </div>
+                            <h2>If it beeps, we bring it back to life</h2>
+                    </div>
+                    <button type="button">
+                        <a href="#contact">Estimates</a>
+                    </button>
+                </div>
+            </section>
+            
+
+            <section id="about">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1>In back to life</h1>
+                            <h2>We care about you</h2>
+                            <img class=" worker-img" 
+                            src="./assets/img/about-worker.png" 
+                            alt="A person working on the body of a blue car">
+                            <p>At our auto body shop, precision meets integrity With a passion 
+                                for restoring vehicles, we focus on more than just fixing dents 
+                                and scratches. We rebuild confidence. Whether it’s a minor touch-up 
+                                or a full vehicle restoration, every job is approached with care and 
+                                commitment.</p>
+                                <p>We believe trust is earned, not 
+                                assumed. That’s why we walk you through every step of the repair 
+                                process, offer clear estimates, and stand behind our work to deliver 
+                                reliable repairs and real results.</p>
+                        </div>
+                        <div class="gallery col-md-6">
+                            <h1>Phenix vehicles</h1>
+                            <h2>Reborn from the ashes</h2>
+                        <div class="row">
+                            <div>
+                                <img class="img-fluid" src="./assets/img/restoration0.png" alt="And after and before a car restoration">
+                                <img class="img-fluid" src="./assets/img/restoration1.png" alt="And after and before a car restoration">
+                                <img class="img-fluid" src="./assets/img/restoration2.png" alt="And after and before a car restoration">
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+
+            <section id="services">    
+                <h2>We work with all insurance companies to make your repair process stress-free.</h2>  
+                <h1>Services</h1>  
+                
+                <div class="container d-flex justify-content-between">
+                    <div class="row">
+                        <div class="services-box col-md-4">
+                            <p>Collision</p>
+                            <img src="./assets/img/collision.png" alt="A drawing of a car collision">
+                        </div>
+
+                        <div class=" services-box col-md-4">
+                            <p>Auto body paint</p>
+                            <img src="./assets/img/auto-body-paint.png" alt="A drawing of a car been painted">
+                        </div>
+                        
+                        <div class=" services-box col-md-4">
+                            <p>Auto Wrap</p>
+                            <img src="./assets/img/auto-wrap.png" alt="A drawing of a car been wrapped">
+                        </div>
+                        
+                        <div class=" services-box col-md-4">
+                            <p>Auto glass repair</p>
+                            <img src="./assets/img/auto-glass-repair.png" alt="A drawing of a car windshield been replace">
+                        </div>
+                        
+                        <div class=" services-box col-md-4">
+                            <p>RV Repairs</p>
+                            <img src="./assets/img/rv-repair.png" alt="A drawing of an rv">
+                        </div>
+                        
+                        <div class=" services-box col-md-4">
+                            <p>EV Repairs</p>
+                            <img src="./assets/img/ev-repair.png" alt="A drawing of an electric vehicle">
+                        </div>
+                    </div>
+                </div>
+                <h2>Get your estimate Today</h2>
+                <button  type="button">
+                    <a href="#contact">Estimates</a>
+                </button>
+
+            </section>
+
+            <section id="contact">
+                <div class="container">
+                    <h1>We believe trust is earned, not assumed. That’s why we 
+                        walk you through every step of the repair process.
+                    </h1>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <form name="contact" netlify method="POST" data-netlify="true">
+                                <input type="hidden" name="form-name" value="contact">
+                                    <p>
+                                        <label>Name:<br> <input type="text" name="name"></label>
+                                    </p>
+                                    <p>
+                                        <label>Email:<br> <input type="email" name="email"></label>
+                                    </p>
+                                    <p>
+                                        <label>Message:<br> <textarea name="message"></textarea></label>
+                                    </p>
+                                    <p>
+                                        <button type="submit">Send</button>
+                                    </p>
+                                </form>
+                            </div>
+                            <div class='col-md-6'>
+                                <img src="/assets/svg/white-logo.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <a href="https://facebook.com"  target="blank" aria-label="Facebook">  <img  src="./assets/Icons/facebook.png"  alt="facebook"></a>
+                    <a href="https://instagram.com" target="blank" aria-label="Instagram"> <img  src="./assets/Icons/Instagram.png" alt="Instagram"></a>
+                    <a href="https://tiktok.com"    target="blank" aria-label="TikTok">    <img  src="./assets/Icons/tik-tok.png"   alt="Tiktok"></a>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Jonathan Scott. All rights reserved.</p>
+        </footer>
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/aos.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
