@@ -48,6 +48,28 @@ html, body {
     margin: 0 auto;
 }
 
+/* Estimates button */
+
+.estimates-button {
+    background-color: var(--sport-red);
+    color: var(--font-color);
+    font-family: 'Audiowide';
+    text-shadow: 2px 3px 2px var(--background);
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 32px ;
+    border: 5px outset silver;
+    border-radius: 40px;
+    z-index: 3;
+}
+
+.estimates-button:hover {
+    color: var(--font-color);
+    text-shadow: none;
+    font-size: 34px;
+}
+/* End of the estimates button */
+
 /* Header */
 header {
     background: var(--background);
@@ -116,10 +138,6 @@ span img {
     width: 60px;
     height: auto;
 }
-
-header h1 {
-    font-size: 20px;
-}
 /* End of the navigation bar */
 /* End of header */
 
@@ -175,32 +193,11 @@ main{
     transform: translateY(0);
 }
 
-.hero button {
-    background-color: var(--sport-red);
+.hero .estimates-button {
     position: absolute;
     bottom: 50px;
     right: 50px;
-    border: 5px outset silver;
-    border-radius: 40px;
-    z-index: 3;
 }
-
-.hero button a, 
-#services button a {
-    font-family: 'Audiowide';
-    color: var(--font-color);
-    text-shadow: 2px 3px 2px var(--background);
-    text-decoration: none;
-    padding: 15px 20px;
-    font-size: 32px ;
-}
-
-.hero button a:hover,
-#services button a:hover {
-    text-shadow: none;
-    font-size: 34px;
-}
-
 /* end of hero */
 
 /* About */
@@ -219,13 +216,13 @@ main{
     border: 6px outset silver;
 }
 
-#about h1 {
+#about h2 {
     text-align: center;
     padding-top: 130px;
     font-size: 60px;
 }
 
-#about h2 {
+#about h3 {
     text-align: center;
     font-size: 30px;
 }
@@ -259,11 +256,11 @@ main{
     z-index: 1;
 }
 
-#services h1 {
+#services h2 {
     font-size: 80px;
 } 
 
-#services h2 {
+#services h3 {
     color: var(--font-color);
     text-align: center;
     padding: 80px 15%;
@@ -302,12 +299,8 @@ main{
     object-fit: cover;
 }
 
-#services button {
-    background-color: var(--sport-red);
-    border: 5px outset silver;
-    border-radius: 40px;
-    padding: 10px;
-    z-index: 3;
+#services .estimates-button  {
+    padding: 10px 30px;
 }
 /* End of Services */
 
@@ -319,7 +312,7 @@ main{
     height: fit-content;
 }
 
-#contact h1 {
+#contact h2 {
     color: var(--font-color);
     letter-spacing: 2px;
     font-size: 32px;
@@ -358,12 +351,13 @@ textarea {
 #contact button {
     background-color: var(--sport-red);
     color: var(--font-color);
-    border: 2px ridge silver;
     letter-spacing: 2px;
-    border-radius: 20px;
-    padding: 12px;    
-    cursor: pointer;
     font-weight: 500;
+    text-shadow: 2px 3px 2px black;
+    border: 5px outset silver;
+    border-radius: 40px;
+    padding: 10px;    
+    cursor: pointer;
     width: 200px;
 }
 
@@ -371,7 +365,7 @@ textarea {
     text-shadow: 2px 3px 2px transparent;
     font-weight: 700;
     font-size: 27px;
-    border-width: 0;
+    border-width: 3px;
 }
 
 #contact img {
@@ -459,11 +453,11 @@ footer {
     }
 
 
-    #about h1 {
+    #about h2 {
         font-size: 40px;
     }
 
-    #about h2 {
+    #about h3 {
         font-size: 25px ;
     }
 
@@ -487,16 +481,16 @@ footer {
         margin-bottom: 25px;
     }
 
-    #services h1 {
+    #services h2 {
         font-size: 35px;
     }
 
-    #services h2 {
+    #services h3 {
         padding: 40px 20px;
         font-size: 20px;
     }
 
-    #contact h1 { 
+    #contact h2 { 
         font-size: 60px;
         padding:60px 0;
     }
@@ -506,7 +500,7 @@ footer {
         border: 2px outset silver;
     }
 
-    #contact h1 {
+    #contact h2 {
         font-size: 20px;
         margin-bottom: 50px;
         letter-spacing: 2px;
