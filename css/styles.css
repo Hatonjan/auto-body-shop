@@ -438,20 +438,14 @@ footer {
         font-size: 15px;
     }
 
-    .hero button {
+    .hero .estimates-button {
         border: 3px outset silver;
+        padding: 0px 10px;
+        font-size: 20px;
         position: absolute;
         right: 5px;
         bottom: 0;
     }
-
-    .hero button a, 
-    #services button a {
-        text-align: center;
-        font-size: 18px ;
-        padding: 6px 12px;
-    }
-
 
     #about h2 {
         font-size: 40px;
@@ -490,6 +484,12 @@ footer {
         font-size: 20px;
     }
 
+    #services .estimates-button {
+        font-size: 25px;
+        padding: 5px 15px;
+        border-width: 3px;
+    }
+
     #contact h2 { 
         font-size: 60px;
         padding:60px 0;
@@ -518,6 +518,11 @@ footer {
         width: 80%;
         height: auto;
         padding-bottom: 40px;
+    }
+
+    #contact button {
+        padding: 5px;
+        border-width: 4px;
     }
 
     .social-icons {
