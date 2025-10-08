@@ -424,14 +424,14 @@ footer {
 
     .hero-video {
         margin-top: 80px;
-        padding-top: 120px;
-        height: 460px;
+        padding-top: 140px;
+        height: 360px;
         width: 100%;
     }
 
     .hero h1{
         margin-top: 80px;
-        padding-top: 120px;
+        padding-top: 50px;
         font-size: 25px;
     }
 
@@ -445,7 +445,7 @@ footer {
         font-size: 20px;
         position: absolute;
         right: 10px;
-        bottom: 18%;
+        bottom: 38%;
     }
     /* End of hero */
 
