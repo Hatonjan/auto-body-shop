@@ -400,7 +400,8 @@ footer {
 @media (max-width: 768px) {
     header .nav-link {
     margin: 0;
-}
+    }
+
     .logo img {
         width: 120px;
         height: auto;
@@ -415,18 +416,20 @@ footer {
         padding: 10px 62px;
     }
 
+    /* hero section */
     #home {
         display: flex;
-        height: 48vh;
+        height: 85vh;
     }
 
     .hero-video {
-        padding-top: 150px;
-        height: 48vh;
+        padding-top: 200px;
+        height: 60%;
+        width: 100%;
     }
 
     .hero h1{
-        padding-top: 80px;
+        padding-top: 120px;
         font-size: 25px;
     }
 
@@ -439,10 +442,12 @@ footer {
         padding: 0px 10px;
         font-size: 20px;
         position: absolute;
-        right: 5px;
-        bottom: 0;
+        right: 10px;
+        bottom: 200px;
     }
+    /* End of hero */
 
+    /* About section */
     #about h2 {
         font-size: 40px;
     }
@@ -470,7 +475,10 @@ footer {
         width: 100%;
         margin-bottom: 25px;
     }
+    /* End of about */
 
+
+    /* Services section */
     #services h2 {
         font-size: 35px;
     }
@@ -495,7 +503,9 @@ footer {
         margin: 5%;
         border: 2px outset silver;
     }
+    /* End of services */
 
+    /* Contact section */
     #contact h2 {
         font-size: 20px;
         margin-bottom: 50px;
@@ -529,7 +539,9 @@ footer {
         width: 30px !important;
         height: 20px;
     }
+    /* End of contact */
 
+    /* Footer */
     footer {
         font-size: 14px;
     }
