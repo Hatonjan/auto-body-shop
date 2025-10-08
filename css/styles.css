@@ -517,7 +517,7 @@ footer {
     input, textarea {
         background-color: var(--background);
         border: 2px ridge silver;
-        width: 100%;
+        width: 320px;
         padding: 5px;
         font-size: 20px;
     }
