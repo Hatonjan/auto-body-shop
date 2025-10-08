@@ -419,7 +419,7 @@ footer {
     /* hero section */
     #home {
         display: flex;
-        height: 85vh;
+        height: 95vh;
     }
 
     .hero-video {
