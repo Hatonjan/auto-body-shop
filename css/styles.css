@@ -423,13 +423,13 @@ footer {
     }
 
     .hero-video {
-        padding-top: 200px;
-        height: 60%;
+        padding-top: 250px;
+        height: 460px;
         width: 100%;
     }
 
     .hero h1{
-        padding-top: 120px;
+        padding-top: 170px;
         font-size: 25px;
     }
 
