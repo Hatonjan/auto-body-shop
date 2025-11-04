@@ -218,6 +218,11 @@ main {
     border: 6px outset silver;
 }
 
+#about {
+    font-family: 'Dela Gothic One';
+    letter-spacing: 2px;
+}
+
 #about h2 {
     text-align: center;
     padding-top: 130px;
@@ -323,6 +328,7 @@ main {
 
 #contact p {
     text-align: center;
+    letter-spacing: 5px;
 }
 
 form {  
